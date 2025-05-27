@@ -33,3 +33,15 @@ def example_function(number1: int, number2: int) -> str:
         return f"{number1} is less than {number2}"
 
     return f"{number1} is greater than or equal to {number2}"
+
+
+def print_hello_world(name: str) -> str:
+    """Returns a greeting message with the given name.
+
+    Args:
+        name (str): The name of the person to greet.
+
+    Returns:
+        str: A personalized greeting message.
+    """
+    return f"Hello {name}. May you live in interesting times!"
